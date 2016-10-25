@@ -1,2 +1,3 @@
 # leaflet-menu
-This is a plugin for leaflet. It will help you create a menu anywhere on the map.
+This is a plugin for leaflet. User may open up a menu via clicking on the button.
+
