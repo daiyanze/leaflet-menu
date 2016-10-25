@@ -1,3 +1,4 @@
 # leaflet-menu
-This is a plugin for leaflet. User may open up a menu via clicking on the button.
+Menu for leaflet button.
+This plugin is created and modified based on aratcliffe[Leaflet.contextmenu](https://github.com/aratcliffe/Leaflet.contextmenu).(Thank you aratcliffe!)
 
