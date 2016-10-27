@@ -11,8 +11,8 @@ This menu style is created and modified based on [Leaflet.contextmenu (by aratcl
 bower install --save Leaflet.Menu
 ```
 #### Copy Paste
-[Download leaflet.menu.js](https://daiyanze.github.io/leaflet-menu/demo/index.html)
-[Download leaflet.menu.css](https://daiyanze.github.io/leaflet-menu/demo/index.html)
+[Download leaflet.menu.js](https://github.com/daiyanze/leaflet-menu/blob/master/src/leaflet.menu.js) \n
+[Download leaflet.menu.css](https://github.com/daiyanze/leaflet-menu/blob/master/src/leaflet.menu.css)
 
 ## How to start
 
