@@ -1,0 +1,22 @@
+{
+  "name": "Leaflet.Menu",
+  "homepage": "https://github.com/daiyanze/leaflet-menu",
+  "authors": [
+    "daiyanze@gmail.com"
+  ],
+  "description": "Simple menu for leaflet maps. Works well together with Easybutton",
+  "main": "src/leaflet.menu.js , src/leaflet.menu.css",
+  "keywords": [
+    "leaflet",
+    "map",
+    "menu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
