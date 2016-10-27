@@ -5,12 +5,12 @@
         <title>Leaflet Menu for Button</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"></link>
         <link rel="stylesheet" href="../lib/leaflet/leaflet.css"></link>
-        <link rel="stylesheet" href="../src/leaflet.menu.css"></link>
+        <link rel="stylesheet" href="../src/leaflet.menu.min.css"></link>
         <link rel="stylesheet" href="../lib/easybutton/easy-button.css"></link>
 
         <script src="../lib/leaflet/leaflet.js"></script>
         <script src="../lib/easybutton/easy-button.js"></script>
-        <script src="../src/leaflet.menu.js"></script>
+        <script src="../src/leaflet.menu.min.js"></script>
     </head>
     <body>
         <div id="map" style="position: absolute;width: 100%; height: 100%;"></div>
@@ -63,7 +63,7 @@
         });
         home_button.addTo(map);
 
-        var menu = L.control.leafletmenu(map, {
+        var menu = L.leafletMenu(map, {
                 items: {
                     GPSPath: {
                         // href: '#',

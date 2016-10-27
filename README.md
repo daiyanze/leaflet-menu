@@ -60,13 +60,27 @@ bower install --save Leaflet.Menu
             id: 'styles-menu',
         });
         menuButton.addTo(map);
-	```html
+	```
 
 3. Have fun with it
 
 ## Methods
-
-
+#### Initialize Menu Object
+```javascript
+var menu = L.leafletMenu(_leafletMap, _Options)
+```
+#### Show Menu
+```javascript
+menu.show()
+```
+#### Hide Menu
+```javascript
+menu.hide()
+```
+#### Remove Menu Element
+```javascript
+menu.removeMenu()
+```
 ## Options
 | Property | Type | Description
 | --- | --- | ---

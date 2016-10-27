@@ -145,6 +145,6 @@ L.Control.LeafletMenu = L.Control.extend({
 
 });
 
-L.control.leafletmenu = function (map, options) {
+L.leafletMenu = function (map, options) {
 	return new L.Control.LeafletMenu(map, options);
 }
