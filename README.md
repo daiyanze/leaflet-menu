@@ -3,7 +3,7 @@ Menu for leaflet map. Works well together with [Easy Button](https://github.com/
 This menu style is created and modified based on [Leaflet.contextmenu (by aratcliffe)](https://github.com/aratcliffe/Leaflet.contextmenu).(Thank you aratcliffe!)
 
 ## Demo ( [Click me to see demo](https://daiyanze.github.io/leaflet-menu/demo/index.html) )
-![alt text](https://github.com/daiyanze/leaflet-menu/demo/demo.png"Demo Screen Shot")
+![alt text](https://github.com/daiyanze/leaflet-menu/blob/master/demo/demo.png "Demo Screen Shot")
 
 ## How to download/install
 #### Bower
