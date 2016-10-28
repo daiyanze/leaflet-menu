@@ -18,48 +18,47 @@ bower install --save Leaflet.Menu
 ## How to start
 
 1. Add leaflet.menu.min.css and leaflet.menu.min.js (Load leaflet.js first)
-```html
-    <link rel="stylesheet" href="../src/leaflet.menu.css"></link>
+	```html
+	<link rel="stylesheet" href="../src/leaflet.menu.css"></link>
 
-    <script src="some_path/leaflet.js"></script>
-    <script src="some_path/leaflet.menu.js"></script>
-```html
-
+	<script src="some_path/leaflet.js"></script>
+	<script src="some_path/leaflet.menu.js"></script>
+	```html
 2. Write code
-```javascript
-var map = L.map('map').setView([35, 139.7]);
-var menu = L.control.leafletmenu(map, {
-        items: {
-            AlertCenterLocation: {
-                onClick: function () {
-                    alert(map.getCenter().toString());
+    ```javascript
+    var map = L.map('map').setView([35, 139.7]);
+    var menu = L.control.leafletmenu(map, {
+            items: {
+                AlertCenterLocation: {
+                    onClick: function () {
+                        alert(map.getCenter().toString());
+                    },
                 },
-            },
-        }
-});
-var menuButton = L.easyButton({
-    states: [{
-        stateName: 'show-menu',
-        icon: 'fa fa-tasks',
-        title: 'Show Menu',
-        onClick: function (btn, map) {
-            menu.options.button = btn;
-            menu.show();
-            btn.state('hide-menu');
-        }
-    },{
-        stateName: 'hide-menu',
-        icon: 'fa fa-tasks',
-        title: 'Hide Menu',
-        onClick: function (btn, map) {
-            menu.hide();
-            btn.state('show-menu');
-        }
-    }],
-    id: 'styles-menu',
-});
-menuButton.addTo(map);
-```
+            }
+    });
+    var menuButton = L.easyButton({
+        states: [{
+            stateName: 'show-menu',
+            icon: 'fa fa-tasks',
+            title: 'Show Menu',
+            onClick: function (btn, map) {
+                menu.options.button = btn;
+                menu.show();
+                btn.state('hide-menu');
+            }
+        },{
+            stateName: 'hide-menu',
+            icon: 'fa fa-tasks',
+            title: 'Hide Menu',
+            onClick: function (btn, map) {
+                menu.hide();
+                btn.state('show-menu');
+            }
+        }],
+        id: 'styles-menu',
+    });
+    menuButton.addTo(map);
+    ```
 
 3. Have fun with it
 
@@ -96,13 +95,13 @@ menu.removeMenu()
 
 Example:
 (The property under your item should be either 'href' or 'Onclick'. It throws an error if you use both)
-```javascript
-items: {
-    GoToGoogle: function(){
-        href: 'http://www.google.com',
-},
-    AlertMeSomething: function(){
-        Onclick: alert('Something');
-}
-}
-```
+    ```javascript
+    items: {
+        GoToGoogle: function(){
+            href: 'http://www.google.com',
+    },
+        AlertMeSomething: function(){
+            Onclick: alert('Something');
+    }
+    }
+    ```
