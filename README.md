@@ -18,12 +18,12 @@ bower install --save Leaflet.Menu
 ## How to start
 
 1. Add leaflet.menu.min.css and leaflet.menu.min.js (Load leaflet.js first)
-	```html
-	<link rel="stylesheet" href="../src/leaflet.menu.css"></link>
+```html
+<link rel="stylesheet" href="../src/leaflet.menu.css"></link>
 
-	<script src="some_path/leaflet.js"></script>
-	<script src="some_path/leaflet.menu.js"></script>
-	```html
+<script src="some_path/leaflet.js"></script>
+<script src="some_path/leaflet.menu.js"></script>
+```html
 2. Write code
 ```javascript
 var map = L.map('map').setView([35, 139.7]);
