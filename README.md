@@ -95,13 +95,13 @@ menu.removeMenu()
 
 Example:
 (The property under your item should be either 'href' or 'Onclick'. It throws an error if you use both)
-    ```javascript
-    items: {
-        GoToGoogle: function(){
-            href: 'http://www.google.com',
-    },
-        AlertMeSomething: function(){
-            Onclick: alert('Something');
-    }
-    }
-    ```
+```javascript
+items: {
+    GoToGoogle: function(){
+        href: 'http://www.google.com',
+},
+    AlertMeSomething: function(){
+        Onclick: alert('Something');
+}
+}
+```
