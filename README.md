@@ -27,7 +27,7 @@ bower install --save Leaflet.Menu
 2. Write code
     ```javascript
     var map = L.map('map').setView([35, 139.7]);
-    var menu = L.control.leafletmenu(map, {
+    var menu = L.leafletMenu(map, {
             items: {
                 AlertCenterLocation: {
                     onClick: function () {
